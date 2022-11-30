@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard | Admin</title>
+</head>
+<body>
+
+    <!-- SideBar section -->
+
+    <input type="checkbox" name="" id="menu">
+
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="fa fa-user-o" > </span> Apprendre à programmer</h2>
+        </div>
+    
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="#" class="active"><span class="fa fa-home"></span>          <span>Accueil</span></a></li>
+                <li><a href="#"><span class="fa fa-tasks"></span>          <span>Taches</span></a></li>
+                <li><a href="#"><span class="fa fa-th-large"></span>          <span>Blog</span></a></li>
+                <li><a href="#"><span class="fa fa-line-chart"></span>          <span>Statistiques</span></a></li>
+                <li><a href="#"><span class="fa fa-address-book"></span>          <span>A-propos</span></a></li>
+                <li><a href="#"><span class="fa fa-clipboard"></span>          <span>Projets</span></a></li>
+                <li><a href="#"><span class="fa fa-money"></span>          <span>Bilans</span></a></li>
+                <li><a href="#"><span class="fa fa-registered"></span>          <span>Enregistrement</span></a></li>
+                <li><a href="#"><span class="fa fa-user"></span>          <span>Contact</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Content header section -->
+
+    <div class="content">
+        <header>
+            <p><label for="menu"><span class="fa fa-bars"></span></label><span class="accueil">Accueil</span></p>
+        
+            <div class="search-wrapp">
+                <span class="fa fa-search"></span>
+                <input type="search" name="" placeholder="Recherche">
+            </div>
+        
+            <div id="dropdown" class="user-wrapp">
+                <div>
+                    <h4>Nasser</h4>
+                    <small>Admin</small>
+                </div>
+                <img decoding="async" src="images/816026.jpg" width="30" height="30" class="logo-admin">
+                <div class="dropdown-content">
+                    <p>Profil</p>
+                    <p>Deconnexion</p>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Content cards section -->
+
+        <main>
+            <div class="cards">
+                 <div class="card-single">
+                     <div>
+                         <h2>2M</h2>
+                         <small>Ventes</small>
+                     </div>
+                     <div>
+                         <span class="fa fa-shopping-cart"></span>
+                     </div>
+                 </div>
+            
+                 <div class="card-single">
+                     <div>
+                         <h2>+30</h2>
+                         <small>Stock</small>
+                     </div>
+                     <div>
+                         <span class="fa fa-newspaper-o"></span>
+                     </div>
+                 </div>
+            
+            
+                 <div class="card-single">
+                     <div>
+                         <h2>58</h2>
+                         <small>Fournisseur</small>
+                     </div>
+                     <div>
+                         <span class="fa fa-user"></span>
+                     </div>
+                 </div>
+            
+                 <div class="card-single">
+                     <div>
+                     <h2>20k</h2>
+                     <small>Communauté</small>
+                     </div>
+                     <div>
+                     <span class="fa fa-group"></span>
+                 </div>
+            
+             </div>
+            </div>
+
+            <!-- Content statistiques section -->
+
+            <div class="composant">
+                <div class="ventes">
+                    <div class="case">
+                        <div class="header-case">
+                            <h2>Listes produits</h2>
+                            <button class="button">Voir plus <span class="fa fa-arrow-right" id="icon"></span></button>
+                        </div>
+                        <div class="body-case">
+                            <div class="tableau">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Luffy</td>
+                                            <td>Naruto</td>
+                                            <td>Croele</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Luffy</td>
+                                            <td>Naruto</td>
+                                            <td>Croele</td>
+                                            <td><span class="status-produit color-one"></span>mass</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luffy</td>
+                                            <td>Naruto</td>
+                                            <td>Croele</td>
+                                            <td><span class="status-produit color-two"></span>mass</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luffy</td>
+                                            <td>Naruto</td>
+                                            <td>Croele</td>
+                                            <td><span class="status-produit color-three"></span>mass</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luffy</td>
+                                            <td>Naruto</td>
+                                            <td>Croele</td>
+                                            <td><span class="status-produit color-four"></span>mass</td>
+                                        </tr>
+                                    </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td>Luffy</td>
+                                                <td>Naruto</td>
+                                                <td>Croele</td>
+                                                <td><span class="status-produit color-five"></span>mass</td>
+                                            </tr>
+                                        </tfoot>
+                                    
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+                <div class="stock">
+                    <div class="case">
+                        <div class="header-case">
+                            <h2>Clients</h2>
+                        </div>
+            
+                        <div class="body-case">
+                            <div class="all-users">
+                                <div class="infos">
+                                    <img decoding="async" src="images/703709.png" width="30" height="30">
+                                    <div>
+                                        <h4>Doflamingo</h4>
+                                        <small>Otaku</small>
+                                    </div>
+                                </div>
+            
+                                <div class="user-contact">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-whatsapp"></span>
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                            </div>
+                            <div class="all-users">
+                                <div class="infos">
+                                    <img decoding="async" src="images/703709.png" width="30" height="30">
+                                    <div>
+                                        <h4>Doflamingo</h4>
+                                        <small>Otaku</small>
+                                    </div>
+                                </div>
+            
+                                <div class="user-contact">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-whatsapp"></span>
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                            </div>
+                            <div class="all-users">
+                                <div class="infos">
+                                    <img decoding="async" src="images/703709.png" width="30" height="30">
+                                    <div>
+                                        <h4>Doflamingo</h4>
+                                        <small>Otaku</small>
+                                    </div>
+                                </div>
+            
+                                <div class="user-contact">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-whatsapp"></span>
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                            </div>
+                            <div class="all-users">
+                                <div class="infos">
+                                    <img decoding="async" src="images/703709.png" width="30" height="30">
+                                    <div>
+                                        <h4>Doflamingo</h4>
+                                        <small>Otaku</small>
+                                    </div>
+                                </div>
+            
+                                <div class="user-contact">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-whatsapp"></span>
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                            </div>
+                            <div class="all-users">
+                                <div class="infos">
+                                    <img decoding="async" src="images/703709.png" width="30" height="30">
+                                    <div>
+                                        <h4>Doflamingo</h4>
+                                        <small>Otaku</small>
+                                    </div>
+                                </div>
+            
+                                <div class="user-contact">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-whatsapp"></span>
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                            </div>
+            
+            
+                        </div>
+                        <button class="btn">Voir plus <span class="fa fa-arrow-right" id="icon"></span></button>
+                    </div>
+            
+                </div>
+            
+                <!-- Centent statistic section -->
+            
+                <div class="statistiques">
+                    <div class="statistique-barre bar1"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar2"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar3"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar4"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar5"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar6"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar7"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar2"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar3"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar4"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar5"></div>
+                    <li>Riz</li>
+                    <div class="statistique-barre bar6"></div>
+                    <li>Riz</li>
+                </div>
+            
+            
+                <div class="legende">
+                    <h4>Legende</h4>
+                    <table>
+                        <tr>
+                            <td><span class="evolution color-one"></span>Riz</td>
+                        </tr>
+                        <tr>
+                            <td><span class="evolution color-two"></span>Mil</td>
+                        </tr>
+                    </table>
+                    <div class="txt-deco">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+</body>
+</html>
